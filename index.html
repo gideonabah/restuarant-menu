@@ -1,99 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GoMyCode kitchen</title>
-    <h1>GoMyCode kitchen</h1>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ict Restaurant Template</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
 </head>
 <body>
+  <!-- Header Section -->
+  <header class="bg-light shadow-sm sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container">
+      <a class="navbar-brand fw-bold text-primary" href="#">
+        <img src="/img/logo.webp" alt="Restaurant Logo" width="40" height="40" class="d-inline-block align-text-top rounded js-4">Ict Restaurant</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <a href="#reservation" class="btn btn-primary ms-3">Reserve a Table</a>
+      </div>
+    </nav>
+  </header>
+  <!---HERO SECTION OF MY PAGE BOOTSTRAP GRID-->
+  <div style="height: 100vh; background-image: url(./img/HERO.png); background-size: cover; background-position: center;" class="position-relative w-100">
+    <div class="position-absolute text-white d-flex flex-column align-items-center justify-content-center" style="top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0,0,0,.6);">
+      <span>GNA ICT SOLUTION </span>
+      <h1 class="mb-4 mt-2 font-weight-bold text-center">HEY! FOOD IS READY</h1>
+      <div class="text-center">
+        <!-- hover background-color: white; color: black; -->
+        <a href="#" id="filled" class="btn px-5 py-3 text-white mt-3 mt-sm-0 mx-1" style="border-radius: 30px; background-color: #9B5DE5;">CONTACT US</a>
+        <!-- hover background-color: #9B5DE5; color: white; -->
+        <a href="#" id="outlined" class="btn px-5 py-3 text-white mt-3 mt-sm-0 mx-1 " style="border-radius: 30px; border:1px solid #9B5DE5;">ORDER MEAL</a>
+      </div>
+    </div>
+  </div>
+       
+  <!-- Credit: Componentity.com -->
+  <a href="https://componentity.com" target="_blank" class="block">
+    <img src="http://codenawis.com/componentity/wp-content/uploads/2020/08/logo-componentity-%E2%80%93-9.png" width="120px" class="d-block mx-auto my-5">
+  </a>
+  <!---MENU SECTION OF POSSITIONING MY GRID LAYOUT-->
+  <div class="container text-center .container-fluid d-block">
+    <div class="row">
+      <div class="col">meal 1</div>
+      <div class="col">meal 2</div>
+      <div class="col">meal 3</div>
+    </div>
+  </div>
+  <!---ABOUT SECTION OF THE PAGE RESPONSIVE WITH BOOSTRAP GRID-->
+  <div>
 
-    <h2>Appetizers</h2>
-  <ul>
-   <li>
-    <strong>Caprese Salad</strong>
-    <p>This grilled salmon tastes so good! A simple soy sauce and brown sugar marinade, with hints of lemon and garlic, are the perfect salty-sweet complement to rich salmon fillets. Even my 9-year-old loves this recipe! Serve with a side of grilled zucchini or grilled corn.</p>
-   </li>
-   <!--      add more of meal list if you wish with description -->
-</ul>  
+  </div>
+  <!---CONTACT SECTION RESPONSIVE BOOTSTRAP -->
+  <div>
+    
+  </div>
+  <!--- FOOTER SECTION WITH BACK IMAGE-->
 
-
-  <h2>main courses</h2>
-  <ul>
-   <li>
-    <strong>Grilled Salmon</strong>
-    <p>This easy salmon grill is packed with flavours from the sweet hint of honey, fresh thyme, and asparagus. Serve with a whole grain food such as millet or brown ...
-    </p>
-   </li>
-   <!--      add more of meal list if you wish with description -->
-</ul>  
-
-  <h2>home made</h2>
-  <ul>
-   <li>
-    <strong>fufu (amala)</strong>
-    <p>Guineacorn and Cassava Flour (Lost) Morsel. Save this recipe and keep it for later. ...
-        Cassava flour puff puff ❤️ ...
-        Dan malele (cassava flour balls) ...
-        Corn & cassava flour swallow. ...
-        Cassava flour buns. ...
-        Cassava flour dumplings ('dansululu) ...
-        Balanced Gluten Free Flour. ...
-        Healthy Morsel Cubed.</p>
-      </li>
-   <!--      add more of meal list if you wish with description -->
-</ul>  
-
-
-
-  <h2>fast meal</h2>
-  <ul>
-   <li>
-    <strong>the burger</strong>
-    <p>a sandwich made from ground meat, usually beef, placed inside a bun.</p>
-   </li>
-   <!--      add more of meal list if you wish with description -->
-</ul>  
-
-
-  <h2>Cabonated food</h2>
-  <ul>
-   <li>
-    <strong>Sweet Potatoes</strong>
-    <p>important vitamins like beta carotene, vitamin C, and potassium. They also contain fiber and can support a nutrient-rich diet. The sweet potato (Ipomoea batatas) is an underground tuber</p>
-   </li>
-   <!--      add more of meal list if you wish with description -->
-</ul>  
-
-
-  <h2>snacks meal</h2>
-  <ul>
-   <li>
-    <strong></strong>
-    <p></p>
-   </li>
-   <!--      add more of meal list if you wish with description -->
-</ul>  
-
-
-  <h2>Appetizers</h2>
-  <ul>
-   <li>
-    <strong></strong>
-    <p></p>
-   </li>
-   <!--      add more of meal list if you wish with description -->
-</ul>  
-
-
-  <h2>Appetizers</h2>
-  <ul>
-   <li>
-    <strong></strong>
-    <p></p>
-   </li>
-   <!--      add more of meal list if you wish with description -->
-</ul>  
-<p><a href="#contact.html">Contact Us For Reservation</a> </p>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
